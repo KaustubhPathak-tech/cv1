@@ -27,3 +27,11 @@ h1 {
   background-color: #ff0063;
 }
 
+@media(max-width:700px) {
+  .bottom-cloud{
+    margin-left: 10%;
+  }
+  .mountain{
+    width: 80%;
+  }
+}
