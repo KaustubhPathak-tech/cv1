@@ -1,41 +1,127 @@
 body {
   margin: 0;
   text-align: center;
+  font-family:'Merriweather',serif;
+}
+.btn{
+  border:0px solid;
+  border-radius: 8px;
+  margin: 20px auto 20px;
+  padding: 10px;
+  font-size: large;
+  width: 10%;
+  background-image: linear-gradient(to right,#11cdd4,#11999e);
+  color: #fff;
+}
+.btn:hover{
+  background-image: linear-gradient(to right,#30e3cb,#2bc4ad);
+  cursor: pointer;
 }
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-family: 'Sacramento',cursive;
+  font-size: 5rem;
+  line-height: 2;
+  margin:0;
+  position: relative;
 }
-
-.top {
-  background-color: #66bfbf;
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat',sans-serif;
+}
+h3{
+  color: #11999E;
   
+  font-size: 2.5rem;
+  font-family: 'Montserrat',sans-serif;
 }
-.top-cloud{
+h3,a{
+  color: #11999E;
+}
+h5{
+  color: #11999E;
+  
+  
+  font-family: 'Montserrat',sans-serif;
+}
+hr{
+  width: 10%;
+  border-style: dotted;
+  border-width: 5px;
+  border-top: 0;
+  border-color: grey;
+}
+.top {
+  background-color: #eaf6f6;
+}
+.top-cloud {
   position: relative;
   padding-top: 5%;
   padding-bottom: 2%;
   margin-left: 30%;
-  
 }
-.bottom-cloud{
+.bottom-cloud {
   display: block;
   margin-left: 30%;
 }
-.middle {
-  background-color: #eaf6f6;
+#pro{
+  margin-top: 0;
 }
-.bottom {
-  background-color: #ff0063;
+.middle {
+  background-color: #fff;
+}
+.profile{
+  padding-top: 5%;
+  padding-bottom: 10px;
+}
+.skill-1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-@media(max-width:700px) {
-  .bottom-cloud{
-    .top-cloud{
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+.bottom {
+  
+   padding: 40px;
+  background-color:#66BFBF ;
+}
+.footer-link{
+  font-family:'Merriweather',serif;
+  font-size: 1.4rem;
+  display: inline-block;
+  width: 10%;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #fff;
+  transition: 0.5s;
+}
+#copy{
+  margin-bottom: 0;
+  line-height: 2;
+  color: #fff;
+}
+@media (max-width: 700px) {
+  .top-cloud {
     margin-left: 40%;
   }
+  .bottom-cloud {
     margin-left: 10%;
   }
-  .mountain{
+  .mountain {
     width: 80%;
   }
 }
